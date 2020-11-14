@@ -41,6 +41,6 @@ class SocialBot:
             time.sleep(2)
 
 
-twitter = SocialBot('RijuStone', 'Ferrorist@859075')
+twitter = SocialBot('<username>', '<password>')
 twitter.login()
-twitter.like_tweet('spiderman')
+twitter.like_tweet('<search title>')
